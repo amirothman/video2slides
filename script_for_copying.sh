@@ -1,0 +1,24 @@
+#!/bin/bash
+cp tmp-ffmpeg-folder/out00009.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00020.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00028.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00030.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00033.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00035.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00036.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00051.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00060.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00061.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00077.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00096.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00099.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00102.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00106.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00125.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00135.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00149.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00178.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00191.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00211.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00237.png tmp-output-folder
+cp tmp-ffmpeg-folder/out00241.png tmp-output-folder
