@@ -23,7 +23,7 @@ for i in range(len(images)-1):
 df = pd.DataFrame(arr)
 seventy_five = df['norm'].describe()[6]
 
-chosen = df[df['norm'] > df.norm.quantile(0.9)]
+chosen = df[df['norm'] > df.norm.quantile(0.75)]
 
 #http://stackoverflow.com/questions/11854847/display-an-image-from-a-file-in-an-ipython-notebook
 print '#!/bin/bash'
