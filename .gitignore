@@ -1,0 +1,5 @@
+*.mp4
+tmp-ffmpeg-folder/*
+tmp-output-folder/*
+*.pdf
+*.tar.gz
