@@ -11,7 +11,8 @@ python split_analysis.py tmp-ffmpeg-folder tmp-output-folder > script_for_copyin
 
 sh script_for_copying.sh
 
-convert tmp-output-folder/*.png -trim slide.pdf
+pngquant 256 --speed=1 tmp-output-folder/*.png
+convert tmp-output-folder/*-fs8.png -trim slide.pdf
 
 #rm -R tmp-ffmpeg-folder
 #rm -R tmp-output-folder
