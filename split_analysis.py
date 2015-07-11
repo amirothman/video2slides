@@ -19,7 +19,7 @@ for i in range(len(images)-1):
   a = cv2.imread(pair[0])
   b = cv2.imread(pair[1])
   n = (np.linalg.norm(b-a))*10000/(a.shape[0]*a.shape[1])
-#  sys.stdout.write('.')
+  sys.stdout.write('.')
   element = {'norm':n,'file_1':pair[0],'file_2':pair[1]}
   arr.append(element)
 
@@ -34,9 +34,16 @@ chosen = df[df['norm'] > df.norm.quantile(0.95)]
 #   quantile_var = quantile_var + 0.05
 #   chosen = df[df['norm'] > df.norm.quantile(quantile_var)]
 # 
-print '#!/bin/bash'
+
+script = open('script_for_copying.sh','w')
+script.write('#!/bin/bash\n')
+
 for item in chosen['file_2'].iteritems():
-  print('cp %(filename)s %(output_folder)s'%{'filename':item[1],'output_folder':output_folder})
+  script.write('cp %(filename)s %(output_folder)s \n'%{'filename':item[1],'output_folder':output_folder})
+
+# print '#!/bin/bash'
+# for item in chosen['file_2'].iteritems():
+#   print('cp %(filename)s %(output_folder)s'%{'filename':item[1],'output_folder':output_folder})
 
 
 
